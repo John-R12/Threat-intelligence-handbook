@@ -93,4 +93,20 @@ Collect input from stakeholders about:
 ---
 
 ## 🧩 Summary Diagram
+[Direction] → [Collection] → [Processing] → [Analysis] → [Dissemination] → [Feedback]
 
+---
+
+## 🧰 Best Practices
+- Keep intelligence **goal-driven**, not data-driven.  
+- Document **sources, confidence, and assumptions**.  
+- Maintain traceability from **requirement → analysis → output**.  
+- Review and refine your lifecycle at least quarterly.  
+
+---
+
+## 📚 References
+- NIST SP 800-150 – *Guide to Cyber Threat Information Sharing*  
+- ENISA – *Cyber Threat Intelligence Framework*  
+- SANS – *Practical Guide to Cyber Threat Intelligence*  
+- MITRE ATT&CK – *Adversary Tactics and Techniques Knowledge Base*
