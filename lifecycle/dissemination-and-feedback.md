@@ -1,9 +1,8 @@
-# 📢 Dissemination & Feedback in Cyber Threat Intelligence
+# 📢 Dissemination & Feedback
 
 The value of Cyber Threat Intelligence (CTI) depends on **how effectively it is shared and used**.  
-Intelligence must reach the right audience, in the right format, at the right time — and evolve based on their feedback.
-
-This phase of the intelligence lifecycle ensures that CTI is **actionable, trusted, and continuously improved**.
+Intelligence must reach the right audience, in the right format, at the right time — and evolve based on their feedback.  
+This phase ensures that CTI is **actionable, trusted, and continuously improved**.
 
 ---
 
@@ -12,7 +11,7 @@ This phase of the intelligence lifecycle ensures that CTI is **actionable, trust
 | Principle | Description |
 |------------|--------------|
 | **Timeliness** | Deliver intelligence early enough to influence decisions or actions. |
-| **Relevance** | Tailor the content to the audience’s mission, not the analyst’s interest. |
+| **Relevance** | Tailor content to the audience’s mission, not the analyst’s interest. |
 | **Accuracy** | Verify sources and confidence levels before sharing. |
 | **Clarity** | Use clear, concise, jargon-free language. |
 | **Security** | Classify and label intelligence appropriately (TLP, internal, etc.). |
@@ -20,9 +19,6 @@ This phase of the intelligence lifecycle ensures that CTI is **actionable, trust
 ---
 
 ## 🧠 2. Audience Segmentation
-
-Different consumers require different intelligence products.  
-Align your reporting style and technical depth accordingly:
 
 | Audience | Intelligence Type | Format / Example |
 |-----------|------------------|------------------|
@@ -45,16 +41,14 @@ Align your reporting style and technical depth accordingly:
 | **Campaign Reports** | Analysis of specific intrusion sets or malware families. | As discovered |
 | **Strategic Assessments** | Long-term trends, sectoral risk, geopolitical analysis. | Quarterly or annual |
 
-> Maintain consistency in **structure, terminology, and confidence scoring**.
-
 ---
 
 ## 🌐 4. Sharing Mechanisms
 
-### 🧩 STIX and TAXII
+### STIX & TAXII
 
-- **STIX (Structured Threat Information eXpression)**: A standardized format for describing cyber threat information.  
-- **TAXII (Trusted Automated eXchange of Indicator Information)**: A transport protocol for sharing STIX data.
+- **STIX (Structured Threat Information eXpression)**: standardized format for CTI.  
+- **TAXII (Trusted Automated eXchange of Indicator Information)**: transport protocol for sharing STIX.
 
 | Use Case | Format | Example |
 |-----------|---------|----------|
@@ -67,8 +61,6 @@ Align your reporting style and technical depth accordingly:
 ---
 
 ## 🔒 5. Classification and Handling (TLP)
-
-Always apply the **Traffic Light Protocol (TLP)** or equivalent data marking:
 
 | TLP Level | Description | Sharing Scope |
 |------------|--------------|----------------|
@@ -83,25 +75,20 @@ Always apply the **Traffic Light Protocol (TLP)** or equivalent data marking:
 
 ## 🔁 6. Feedback Loop
 
-Feedback transforms intelligence from a one-way report into a **collaborative process**.  
-It allows improvement in relevance, accuracy, and usefulness.
-
 | Feedback Source | Type of Input | Resulting Action |
 |------------------|----------------|------------------|
 | **SOC / IR Teams** | False positives, gaps, detection outcomes | Refine data sources, improve quality |
 | **Executives / Management** | Usefulness of reports, decision support | Adjust content and cadence |
 | **Partners / Communities** | External validation, shared context | Enhance correlation and enrichment |
 
-**Establish feedback channels:**
-- Post-report surveys or feedback forms  
+**Feedback channels:**  
+- Post-report surveys or forms  
 - Periodic intelligence review meetings  
 - Metrics: report usage, opened alerts, detections triggered  
 
 ---
 
 ## 📈 7. Measuring Dissemination Effectiveness
-
-Track metrics to evaluate CTI impact:
 
 | Metric | Description |
 |---------|--------------|
@@ -111,8 +98,6 @@ Track metrics to evaluate CTI impact:
 | **Quality** | Confidence accuracy, false positive rate. |
 | **Coverage** | % of PIRs addressed in intelligence outputs. |
 
-> Intelligence without measurement cannot improve.
-
 ---
 
 ## 🧰 8. Best Practices
@@ -121,12 +106,13 @@ Track metrics to evaluate CTI impact:
 - Include **confidence scoring** and **data provenance** in every report.  
 - Encourage **two-way sharing** with internal and external partners.  
 - Establish a **publishing calendar** for regular CTI products.  
-- Integrate feedback systematically into the **Direction phase** of the next cycle.
+- Integrate feedback systematically into the **Direction & Planning phase** of the next cycle.
 
 ---
 
 ## 📚 References
+
 - NIST SP 800-150 – *Guide to Cyber Threat Information Sharing*  
 - FIRST – *Traffic Light Protocol (TLP) v2.0*  
 - MITRE – *STIX/TAXII 2.1 Specifications*  
-- SANS – *Operationalizing Threat Intelligence Sharing*  
+- SANS – *Operationalizing Threat Intelligence Sharing*
