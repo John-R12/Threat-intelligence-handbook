@@ -12,6 +12,7 @@ This repository helps you:
 - Analyze indicators, adversary campaigns, and TTPs.
 - Share intelligence securely and efficiently (STIX, TAXII, TLP).
 - Enrich and score data to improve operational value.
+- Apply CTI frameworks and standards for structured analysis.
 
 ---
 
@@ -21,18 +22,20 @@ This repository helps you:
 |--------|--------------|
 | `lifecycle/` | Defines the CTI lifecycle, collection plans, and analytical frameworks. |
 | `sources/` | Catalogs and evaluates intelligence feeds and data sources. |
-| `analysis/` | Provides methods and templates for IoC, TTP, and campaign analysis. |
-| `sharing/` | Covers intelligence sharing models, data standards, and reporting formats. |
+| `analysis/` | Provides methods and templates for IoC, TTP, campaign, and threat-hunting analysis. |
 | `enrichment/` | Details enrichment techniques, pivoting, and scoring models. |
+| `sharing/` | Covers intelligence sharing models, communication templates, and feedback mechanisms. |
+| `frameworks/` | Provides CTI frameworks (MITRE ATT&CK, Diamond Model, Kill Chain) and standards (STIX/TAXII, MISP). |
 
 ---
 
 ## 🧩 How to Use
 1. Start with [`lifecycle/intelligence-cycle.md`](./lifecycle/intelligence-cycle.md) to understand the CTI process.  
 2. Explore `sources/` to identify data feeds and evaluate their reliability.  
-3. Use `analysis/` to structure your analytical process.  
-4. Apply `sharing/` templates for reporting and collaboration.  
-5. Leverage `enrichment/` to enhance your data and intelligence output.
+3. Use `analysis/` to structure your analytical process and conduct threat hunting.  
+4. Apply `sharing/` templates for reporting, internal/external communication, and feedback loops.  
+5. Leverage `enrichment/` to enhance your data and intelligence output.  
+6. Reference `frameworks/` to map TTPs, structure campaigns, and ensure standardized reporting.
 
 ---
 
