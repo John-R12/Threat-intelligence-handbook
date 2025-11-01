@@ -26,12 +26,11 @@ The **Diamond Model** visualizes intrusions through four core components:
 
 **Example Diagram:**
 
-      [ Adversary ]
-          /    \
- [ Capability ] [ Infrastructure ]
-          \    /
-         [ Victim ]
-
+              [ Adversary ]
+                  /    \
+       [ Capability ] [ Infrastructure ]
+                  \    /
+                [ Victim ]
 
 ---
 
