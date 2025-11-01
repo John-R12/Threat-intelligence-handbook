@@ -1,46 +1,44 @@
-# 🔄 Threat Intelligence Lifecycle
+# 🔄 Cyber Threat Intelligence Lifecycle
 
-The **Threat Intelligence Lifecycle** defines the continuous process of transforming raw data into actionable intelligence.  
-It ensures that intelligence activities are **structured, repeatable, and aligned** with organizational objectives.
+This folder contains the core documents describing the **Cyber Threat Intelligence (CTI) lifecycle**, including templates and practical methods for collection, analysis, and dissemination.
 
----
-
-## 🧩 Overview
-
-The lifecycle typically follows six key phases:
-
-1. **Direction & Planning** – Define goals, scope, and intelligence requirements.  
-2. **Collection** – Gather data from various sources (open, commercial, internal).  
-3. **Processing** – Normalize, clean, and structure data for analysis.  
-4. **Analysis & Production** – Identify patterns, assess threats, and generate reports.  
-5. **Dissemination** – Deliver intelligence to relevant stakeholders.  
-6. **Feedback & Review** – Evaluate the effectiveness and refine requirements.
+The CTI lifecycle ensures that intelligence activities are **structured, repeatable, and actionable**.
 
 ---
 
-## 📁 Lifecycle Files
+## 🧩 Lifecycle Overview
+
+The main stages of the lifecycle are:
+
+1. **Intelligence Cycle Overview** – general description of CTI processes.  
+2. **Collection Planning** – templates and guidance for planning collection activities.  
+3. **Analysis Methods** – techniques and best practices for analyzing threat data.  
+4. **Dissemination & Feedback** – sharing intelligence effectively and capturing feedback for continuous improvement.
+
+---
+
+## 📁 Files
 
 | File | Description |
-|------|--------------|
-| [`direction-and-planning.md`](./direction-and-planning.md) | Defines intelligence objectives, priorities, and scope. |
-| [`collection.md`](./collection.md) | Describes data collection methods, tools, and compliance considerations. |
-| [`processing.md`](./processing.md) | Explains data normalization, enrichment, and transformation techniques. |
-| [`analysis.md`](./analysis.md) | Details analytical methodologies and threat assessment processes. |
-| [`dissemination-and-feedback.md`](./dissemination-and-feedback.md) | Covers intelligence distribution channels and feedback mechanisms. |
+|------|-------------|
+| [`intelligence-cycle.md`](./intelligence-cycle.md) | Overview of the CTI lifecycle, phases, and objectives. |
+| [`collection-plan-template.md`](./collection-plan-template.md) | Template and guidance for planning collection activities. |
+| [`analysis-methods.md`](./analysis-methods.md) | Practical methods and techniques for analyzing collected threat data. |
+| [`dissemination-and-feedback.md`](./dissemination-and-feedback.md) | Guidelines for sharing intelligence, segmenting audiences, TLP classification, and incorporating feedback. |
 
 ---
 
-## ⚙️ Best Practices
+## ⚙️ How to Use
 
-- Maintain **traceability** between requirements, data, and outputs.  
-- Automate **collection and enrichment** where possible.  
-- Ensure **feedback loops** exist between producers and consumers of intelligence.  
-- Continuously **refine priorities** based on evolving threats and feedback.  
+1. Start with the **Intelligence Cycle Overview** to understand the phases.  
+2. Use **Collection Plan Template** to structure collection activities.  
+3. Apply **Analysis Methods** when reviewing and correlating data.  
+4. Follow **Dissemination & Feedback** guidance to distribute intelligence and close the loop.
 
 ---
 
 ## 📚 References
 
 - NIST SP 800-150 – *Guide to Cyber Threat Information Sharing*  
-- SANS – *Threat Intelligence Lifecycle*  
-- ENISA – *Good Practices for Threat Intelligence Sharing*
+- SANS – *Operationalizing Threat Intelligence*  
+- FIRST – *Traffic Light Protocol (TLP) v2.0*
